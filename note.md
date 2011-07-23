@@ -1,9 +1,9 @@
-#第一部分linus
+# The first part of linus basic
 
 ###cd
    change directory
 ###pwd
-   print name of CurrentWorking Directory
+   print name of Current Working Directory
 ###mkdir
    make  a directory or use -p for farther‘s directory
 ###rm
