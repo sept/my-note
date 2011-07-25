@@ -46,11 +46,14 @@ and:
   
         search: /***   __ "n"__ for next*** __"N__" for last ***
   
-        set number/nonumber
+###setting the vim
 
-        ~/vim .vimrc set number
-                    
-		        /hidden
+        set number/hidden
+
+	set autoindent
+
+	set dictionary=/usr/share/dict/words
+	
 ###setting the bash
 
 first back to the home directiry 
@@ -169,4 +172,17 @@ then copy the contents of them and paste them in account ssh-key
 
 	  markdown a.md > a.html
 
-	  firefox a.html 
+	  firefox a.html
+
+###checkout a branch
+
+	git checkout +(the number after commit) 
+
+	git master  "get back to the origin"
+
+	git checkout -b ( + the number after commit) one_branch  "set a name for a branch"
+
+	git branch -D one_branch               "delete the branch"
+
+
+
